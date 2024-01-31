@@ -1,0 +1,199 @@
+#addbg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#head{
+    color: rgb(220, 133, 12);
+}
+#registerr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem ;
+}
+
+#registerrform{
+    height: 390px;
+    width: 350px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: rgb(77, 68, 68);
+    /* background-image: linear-gradient( rgba(122, 177, 207, 0.628), rgba(8, 0, 0, 0.874)); */
+    background-color: white;
+    width: 320px;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px #ccc;
+
+    
+}
+.registerrlabel{
+    
+margin:0 2rem 2rem ;
+
+    
+}
+.registerrinput{
+    margin: 6px 2rem ;
+    height: 35px;
+    width: 250px;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 2px solid rgb(10, 9, 9);
+    margin-bottom: 3px;
+    
+}
+
+
+#sub{
+    background-image: linear-gradient(black,silver);
+    color: rgb(243, 238, 238);
+    height: 25px;
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    margin: 20px 120px;
+}
+#sub:hover{
+    background-image: linear-gradient(rgb(73, 190, 190),rgb(29, 208, 136));
+    transition: 0.5;
+}
+#mainblock{
+    height: 31rem;
+    width: 80vw;
+    background-color: rgb(166, 192, 192);
+    overflow: scroll;
+}
+#cardblock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  
+}
+#card{
+    height: 200px;
+    width: 270px;
+    margin-left: 0.7rem;
+    background-color: azure;
+    margin-top: 1rem;
+    border-radius: 15px;
+   
+}
+
+#card h3{
+    margin-top: 0.3rem;
+    padding-top: 5px;
+    margin-left: 2.9rem;
+}
+#card button{
+    width: 100px;
+    height: 35px;
+    padding-top: 3px;
+    /* margin-top: 1rem; */
+    margin-left: 5rem;
+    border-radius: 8px;
+    border: none;
+    background-color: bisque;
+}
+#card button:hover{
+    background-color: rgb(200, 200, 154);
+}
+/* ========================================Each Academy Manager=================================== */
+#mainblock h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 26rem;
+    font-size: 28px;
+    font-weight: 400;
+}
+#eachcard{
+    height: 250px;
+    width: 300px;
+    background-color: rgb(186, 219, 219);
+    border-radius: 10px;
+    margin-left: 8rem;
+}
+#eachcard {
+   margin: 2rem 23rem;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 100;
+}
+#eachcard h3{
+    margin-top: 0.6rem;
+    padding-top: 7px;
+    margin-left: 2.9rem;
+}
+#eachcard div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#eachCardButton1{
+    width: 150px;
+    height: 35px;
+    padding-top: 3px;
+    margin-top: 1rem;
+    /* margin-left: 2rem; */
+    border-radius: 8px;
+    border: none;
+    background-color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 400;
+}
+#eachCardButton2{
+    width: 150px;
+    height: 35px;
+    padding-top: 3px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    border-radius: 8px;
+    border: none;
+    background-color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 400;
+}
+#eachCardButton3{
+    width: 150px;
+    height: 35px;
+    padding-top: 3px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    border-radius: 8px;
+    border: none;
+    background-color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 400;
+}
+#eachcard button:hover{
+    background-color: rgb(200, 200, 154);
+}
+#add{
+    height: 350px;
+    width: 350px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: rgb(54, 53, 53);
+    /* background-image: linear-gradient( rgba(207, 218, 223, 0.628), rgba(244, 237, 237, 0.874)); */
+    background:white;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px #ccc;
+}
+#leo{
+border: 1 px solid salmon;
+}
+#cCard{
+    /* width: 40rem; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 3rem;
+    font-family: cursive;
+    font-size: 15px;
+}
+#cou{
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 200px;
+    background-color: rgb(170, 198, 215);
+    border-radius: 8px;
+}

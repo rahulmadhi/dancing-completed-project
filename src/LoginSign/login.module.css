@@ -1,0 +1,52 @@
+#loginbody{
+    background-image: linear-gradient( rgba(122, 177, 207, 0.628), rgba(8, 0, 0, 0.874));
+    height: 300px;
+    width: 380px;
+    border-radius: 15px;
+    margin: 60px auto;
+}
+#heaedd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(220, 133, 12);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    
+}
+#form{
+    height: 250px;
+    width: 350px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    
+}
+.label{
+    
+    margin: 9rem ;
+}
+
+.input{
+    height: 35px;
+    width: 250px;
+    margin: 10px 4.2rem ;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+#submit{
+    background-image: linear-gradient(rgb(92, 86, 100),rgb(247, 104, 15));
+    color: white;
+    height: 35px;
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    margin: 2rem 9rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+#submit:hover{
+    background-image: linear-gradient(rgb(232, 103, 39),rgb(26, 189, 129));
+    transition: 0.5;
+}

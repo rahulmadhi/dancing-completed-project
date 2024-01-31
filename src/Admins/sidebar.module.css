@@ -1,0 +1,78 @@
+#art{
+    display: flex;
+}
+
+#sect{
+    /* border: 1px solid black; */
+    background-color: rgb(232, 245, 245);
+    height: 495px;
+    width: 300px;
+}
+#out{
+    height: 495px;
+    width: 80vw;
+    /* background-image: linear-gradient(); */
+}
+#ayioo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px ;
+}
+#heaedd{
+    color: rgb(220, 133, 12);
+}
+#registerform{
+    
+    width: 350px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: rgb(245, 236, 236);
+    background-image: linear-gradient( rgba(122, 177, 207, 0.628), rgba(8, 0, 0, 0.874));
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px whitesmoke;
+    height: 400px;
+}
+.registerlabel{
+    
+
+    
+}
+.registerinput{
+    margin: 1px 2rem 0 ;
+    height: 35px;
+    width: 250px;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 2px solid rgb(10, 9, 9);
+    
+}
+
+
+#sub{
+    background-image: linear-gradient(black,silver);
+    color: rgb(243, 238, 238);
+    height: 25px;
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    margin: 20px 120px;
+}
+#sub:hover{
+    background-image: linear-gradient(rgb(73, 190, 190),rgb(29, 208, 136));
+    transition: 0.5;
+}
+#march{
+   margin: 50px 50px;
+
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
